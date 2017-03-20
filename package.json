@@ -98,6 +98,7 @@
     "ava-init": "^0.2.0",
     "babel-code-frame": "^6.16.0",
     "babel-core": "^6.17.0",
+    "babel-plugin-ava-throws-helper": "github:avajs/babel-plugin-ava-throws-helper#1eb368f8abfa3cdb514626656caa16a6ae9b14e7",
     "bluebird": "^3.0.0",
     "caching-transform": "^1.0.0",
     "chalk": "^1.0.0",
