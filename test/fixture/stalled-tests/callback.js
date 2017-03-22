@@ -1,6 +1,5 @@
-'use strict';
+import test from '../../..'
 
-const test = require('../../..');
 test.cb(t => {
 	t.pass();
 });

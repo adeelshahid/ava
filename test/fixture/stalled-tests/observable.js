@@ -1,7 +1,6 @@
-'use strict';
-const Observable = require('zen-observable')
+import test from '../../..'
+import Observable from 'zen-observable'
 
-const test = require('../../..');
 test(t => {
 	return new Observable(() => {
 		t.pass();

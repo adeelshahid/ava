@@ -1,6 +1,5 @@
-'use strict';
+import test from '../../..'
 
-const test = require('../../..');
 test(t => {
 	return new Promise(() => {
 		t.pass();
