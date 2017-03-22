@@ -128,6 +128,12 @@ test('fails if no assertions are run, unless so planned', t => {
 	t.end();
 });
 
+test('fails if no assertions are run, unless an ended callback test', t => {
+	const passed = ava.cb(a => a.end()).run();
+	t.is(passed, true);
+	t.end();
+});
+
 test('wrap non-assertion errors', t => {
 	const err = new Error();
 	let result;

@@ -5,7 +5,6 @@ const tests = [];
 test.cb('first', t => {
 	setTimeout(() => {
 		tests.push('first');
-		t.pass();
 		t.end();
 	}, 300);
 });
@@ -13,7 +12,6 @@ test.cb('first', t => {
 test.cb('second', t => {
 	setTimeout(() => {
 		tests.push('second');
-		t.pass();
 		t.end();
 	}, 100);
 });
